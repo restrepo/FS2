@@ -1,7 +1,7 @@
 \documentclass[twocolumn]{article}
 
 
-\title{Una deduccion simple de la ecuacion de Dirac}
+\title{Una deducción simple de la ecuación de Dirac}
 \author{Andrés Felipe Gómez Alzate }
 \date{Universidad Antioquia\\ Facultad de Ciencias Exactas y Naturales.\\ Instituto de Física.}
 
@@ -24,9 +24,9 @@
 \vspace*{-1cm}
 \begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
 \begin{abstract}
-\normalsize En este corto articulo discutiremos las ideas pioneras que llevaron a Dirac a formular su ecuación y las repercusiones que tuvo en la física, como la predicción de antipartículas y el surgimiento del spin de manera natural al imponer una energía relativista para el electrón. \\ \\
+\normalsize En este corto artículo discutiremos las ideas pioneras que llevaron a Dirac a formular su ecuación y las repercusiones que tuvo en la física, como la predicción de antipartículas y el surgimiento del spin de manera natural al imponer una energía relativista para el electrón. 
 
-\textbf{Palabras Clave:} Antimateria, Spin, Mecánica cuántica, Relatividad Especial\\
+\textbf{Palabras Clave:} Antimateria, Spin, Mecánica cuántica, Relatividad Especial
 \begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
 \vspace*{0.1cm}
 \end{abstract}
@@ -36,38 +36,38 @@
 \section{Introducción}
 El siglo XX fue un gran siglo para la física, emergieron teorías que cambiaron nuestras concepciones de la materia y del espacio tiempo, como lo fueron la relatividad especial y la mecánica cuántica, la ecuación de Dirac formulada en 1928 precisamente une por primera vez estas dos teorías congruentemente.
 
-Para entender como Dirac llego a su ecuación primero pondremos en contexto los problemas a los que se enfrentaba, clásicamente la dinámica de una partícula esta descrito por el Hamiltoniano del sistema, que en mucho casos coincide con su energía, en el caso de una partícula libre el Hamiltoniano y su energía sera:
+Para entender como Dirac llego a su ecuación primero pondremos en contexto los problemas a los que se enfrentaba, clásicamente la dinámica de una partícula esta descrita por el Hamiltoniano del sistema, que en mucho casos coincide con su energía, en el caso de una partícula libre el Hamiltoniano y su energía sera:
 \begin{equation}
     H=E=\frac{p^2}{2m} \,,
 \end{equation}
-donde $p$ es el momentum lineal de la partícula y $m$ su masa. Schrodinger propuso su ecuación de evolución temporal para partículas subatómicas (ya que estas no seguían la dinámica Newtoniana), cambiando las cantidades física como la posición y el momentum por operadores, el momento toma la siguiente forma (en el espacio de posiciones) : $\hat{p} \rightarrow -i\hbar \frac{\partial}{\partial x}$, y la energía $E \rightarrow i\hbar\frac{\partial}{\partial t},$ con estas transformaciones de variables reales a operadores, la  ecuación de Schrodinger para una partícula libre en una dimensión (sustituyendo en $(1)$ y aplicando sobre una función que depende de $x$ y $t$):
+donde $p$ es el momentum lineal de la partícula y $m$ su masa. Schrodinger propuso su ecuación de evolución temporal para partículas subatómicas (ya que estas no seguían la dinámica Newtoniana), cambiando las cantidades físicas como la posición y el momentum por operadores, el momento toma la siguiente forma (en el espacio de posiciones) : $\hat{p} \rightarrow -i\hbar \frac{\partial}{\partial x}$, y la energía $E \rightarrow i\hbar\frac{\partial}{\partial t},$ con estas transformaciones de variables reales a operadores, la  ecuación de Schrodinger para una partícula libre en una dimensión (sustituyendo en $(1)$ y aplicando sobre una función que depende de $x$ y $t$):
 \begin{equation}
     i\hbar \frac{\partial\psi(x,t)}{\partial t}=\hat{H}\psi(x,t) .
 \end{equation}
 
-Con $\hat{H}= -\hbar^2 \frac{d^2}{dx^2} ,$  como vemos esta ultima expresión es solo el resultado de cambiar $p$ por un operador en la ecuación $(1)$, esta ecuación es valida para velocidades bajas, es decir para partículas no relativistas, para una descripción relativista debemos introducir el Hamiltoniano que nos presenta la relatividad especial:
+Con $\hat{H}= -\hbar^2 \frac{d^2}{dx^2} ,$  como vemos esta ultima expresión es solo el resultado de cambiar $p$ por un operador en la ecuación $(1)$. Ésta ecuación es valida para velocidades bajas, es decir para partículas no relativistas. Para una descripción relativista debemos introducir el Hamiltoniano que nos presenta la relatividad especial:
 \begin{equation}
    E=H=\sqrt{(pc)^2 + (mc^2)^2} .
 \end{equation}
 
 Como vemos esta ecuación presenta un problema si intentamos cuantizarla, al tener una raíz cuadrada la actuación de estos operadores no es clara, Klein y Gordon proponen una ecuación relativista , al  elevar al cuadrado la energía y aplicar la cuantización:
 \begin{equation}
-    (\frac{\partial^2}{\partial x^2}- \frac{1}{c^2}\frac{\partial^2}{\partial t^2}-\frac{m^2 c^2}{\hbar ^2})\psi(x,t)=0 .
+   \left(\frac{\partial^2}{\partial x^2}- \frac{1}{c^2}\frac{\partial^2}{\partial t^2}-\frac{m^2 c^2}{\hbar ^2}\right)\psi(x,t)=0 .
 \end{equation}
 
-Como vemos al hacer esto aparece una derivada temporal de segundo orden , lo que implica que podemos tener probabilidad negativa, algo que carece de todo sentido ya que estas están definidas entre 0 y 1 (esta ecuación actualmente se entiende para describir campos escalares en teoría Cuántica de Campos),además según la relatividad especial el tiempo es tratado bajo las mismas condiciones que las coordenadas espaciales (como vemos la ecuación de Klein-Gordon tiene esta propiedad, pero necesariamente deben ser de primer orden, ya que necesitaríamos dos condiciones iniciales para describir mi estado cuántico y estas son arbitrarias) por esta razón Dirac asumió que ambas derivadas deben ser derivadas de primer orden (simetría entre el espacio y el tiempo), debido lo anterior Dirac propuso linealizar la ecuación $(3)$ para así resolver el problema de la derivada temporal de segundo orden y evitar la aparición de la probabilidad negativa.
+Como vemos al hacer esto aparece una derivada temporal de segundo orden, lo que implica que podemos tener probabilidad negativa, algo que carece de todo sentido ya que estas están definidas entre 0 y 1 (esta ecuación actualmente se entiende para describir campos escalares en teoría Cuántica de Campos). Además, según la relatividad especial, el tiempo es tratado bajo las mismas condiciones que las coordenadas espaciales (como vemos la ecuación de Klein-Gordon tiene esta propiedad, pero necesariamente deben ser de primer orden, ya que necesitaríamos dos condiciones iniciales para describir mi estado cuántico y estas son arbitrarias). Por esta razón Dirac asumió que ambas derivadas deben ser derivadas de primer orden (simetría entre el espacio y el tiempo), debido lo anterior Dirac propuso linealizar la ecuación $(3)$ para así resolver el problema de la derivada temporal de segundo orden y evitar la aparición de la probabilidad negativa.
 
 \section{Linealización}
 Dirac quería linealizar la ecuación $(3)$ :
 \begin{equation}
     \sqrt{p^2 + m^2c^2}=\alpha p+\beta mc ,
 \end{equation}
- es decir necesitamos hallar $\alpha$ y $\beta$ para que cumplan la ecuación anterior, pero para que cesto sea posible necesitamos garantizar ciertas condiciones para  $\alpha$ y $\beta$ :
+ es decir necesitamos hallar $\alpha$ y $\beta$ para que cumplan la ecuación anterior, pero para que esto sea posible necesitamos garantizar ciertas condiciones para  $\alpha$ y $\beta$ :
 \begin{gather}
     (\alpha p+\beta mc)^2 = (p^2 + m^2 c^2) . \\
     \alpha^2 p^2 + \beta ^2 (mc)^2 +(\alpha \beta +\beta \alpha)pmc = p^2 + (mc)^2 .
 \end{gather}
-Como vemos para que se cumpla la condición anterior se debe cumplir lo siguiente : $\alpha^2 = 1 = \beta^2 ,$ pero también debemos garantizar que se cumpla, $\alpha\beta +\beta \alpha=0$, es aquí donde entra la genialidad de Dirac ya que si pensamos $\alpha$ y $\beta$ como números (reales o complejos) estos conmutaran y sera imposible satisfacer la condición $\alpha \beta+\beta\alpha=0$, así que Dirac propone que los coeficientes deben ser matrices y al imponer esto encontramos que las matrices de menor dimensión que cumplan las condiciones anteriores son matrices 4x4, si lo pensamos bien la dimensión 4 no sorprende en la relatividad especial, las transformaciones de Lorentz también tienen esta dimensión.
+Como vemos para que se cumpla la condición anterior se debe cumplir lo siguiente : $\alpha^2 = 1 = \beta^2 ,$ pero también debemos garantizar que se cumpla, $\alpha\beta +\beta \alpha=0$, es aquí donde entra la genialidad de Dirac ya que si pensamos $\alpha$ y $\beta$ como números (reales o complejos) estos conmutaran y sera imposible satisfacer la condición $\alpha \beta+\beta\alpha=0$. Así que Dirac propone que los coeficientes deben ser matrices y al imponer esto encontramos que las matrices de menor dimensión que cumplan las condiciones anteriores son matrices $4\times 4$. Si lo pensamos bien la dimensión 4 no sorprende en la relatividad especial, las transformaciones de Lorentz también tienen esta dimensión.
 Dos posibles soluciones son las siguientes:
 \begin{equation}
 \begin{matrix}
@@ -80,11 +80,11 @@ Dos posibles soluciones son las siguientes:
 0 & 1 & 0 & 0 \\
 \end{bmatrix}
 \end{equation}
-Podemos observar que esta matriz se puede ver como una matriz $2$x$2$ cuya entradas en la anti-diagonal es la matriz de Pauli $\sigma_3=$ $\big(\begin{smallmatrix}
+Podemos observar que esta matriz se puede ver como una matriz $2\times 2$ cuya entradas en la anti-diagonal es la matriz de Pauli $\sigma_3=$ $\big(\begin{smallmatrix}
   1 & 0\\
   0 & -1
 \end{smallmatrix}\big),$
- esto nos sugiere que de alguna manera hay información acerca del spin de la partícula en esta propuesta,lo que es maravillosos ya que las matrices de Pauli describen satisfactoriamente el spin del electrón (partículas con spin 1/2), pero no había una manera teórica para introducir el spin de las partículas de manera deductiva, pero como vemos al introducir la relatividad especial este aparece naturalmente, (cuando trabajamos con las 3 dimensiones espaciales obtenemos otras 2 matrices relacionadas con las matrices de Pauli).
+ esto nos sugiere que de alguna manera hay información acerca del spin de la partícula en esta propuesta, lo que es maravillosos ya que las matrices de Pauli describen satisfactoriamente el spin del electrón (partículas con spin 1/2), pero no había una manera teórica para introducir el spin de las partículas de manera deductiva, pero como vemos al introducir la relatividad especial este aparece naturalmente, (cuando trabajamos con las 3 dimensiones espaciales obtenemos otras 2 matrices relacionadas con las matrices de Pauli).
 \begin{equation}
 \begin{matrix}
 \beta=
@@ -97,11 +97,11 @@ Podemos observar que esta matriz se puede ver como una matriz $2$x$2$ cuya entra
 \end{bmatrix}
 \end{equation}
 Por tanto la ecuación de Dirac en una dimensión queda de la siguiente forma:
-
+%
 \begin{equation}
-    i\hbar \frac{\partial \psi(x,t)}{\partial t}=(-\alpha i\hbar c\frac{\partial}{\partial x} + \beta mc^2)\psi(x,t) ,
+    i\hbar \frac{\partial \psi(x,t)}{\partial t}=\left(-\alpha i\hbar c\frac{\partial}{\partial x} + \beta mc^2\right)\psi(x,t) ,
 \end{equation}
-como se puede observar ya que $\alpha$ y $\beta$ son matrices $4$x$4$ para que la ecuación anterior tenga sentido el elemento $\psi$ debe ser un vector de 4 componentes 
+como se puede observar ya que $\alpha$ y $\beta$ son matrices $4\times 4$ para que la ecuación anterior tenga sentido el elemento $\psi$ debe ser un vector de 4 componentes 
 \begin{equation}
 \begin{matrix}
 \psi=
@@ -114,10 +114,10 @@ como se puede observar ya que $\alpha$ y $\beta$ son matrices $4$x$4$ para que l
 \end{bmatrix}
 ,
 \end{equation}
-en la literatura se reconoce este elemento como el espinor de Dirac, se discutirá el significado de cada elemento en la siguiente sección
+en la literatura se reconoce este elemento como el espinor de Dirac. Se discutirá el significado de cada elemento en la siguiente sección.
 
 \section{Electrón en reposo}
-La evolución temporal de la ecuación $8$ estará dada por una fase de la forma $\exp \frac{-itE_i}{\hbar}$, con $i=1,2,3,4$ correspondiente a cada elemento de el espinor de Dirac, si hacemos $p=0$, tenemos un electrón en reposo, que según la relatividad especial posee una energía por el solo hecho de existir, por tanto, la ecuación de Dirac independiente del tiempo queda:
+La evolución temporal de la ecuación $8$ estará dada por una fase de la forma $\exp( {-itE_i}/{\hbar})$, con $i=1,2,3,4$ correspondiente a cada elemento de el espinor de Dirac, si hacemos $p=0$, tenemos un electrón en reposo, que según la relatividad especial posee una energía por el solo hecho de existir. Por lo tanto, la ecuación de Dirac independiente del tiempo queda:
 \begin{equation}
 \begin{bmatrix}
 mc^2 & 0 & 0 & 0 \\
@@ -131,10 +131,10 @@ mc^2 & 0 & 0 & 0 \\
 .
 \end{equation}
 
-Lo anterior es un problema de autovalores pero como vemos es uno trivial, ya que la matriz ya esta diagonalizada y sus autovalores son los elementos de la diagonal, se observa que cada autovalor tiene una degeneración de grado 2, es decir a cada autovalor le corresponden dos autovectores diferentes. Los autovectores también son triviales:
+Lo anterior es un problema de autovalores pero como vemos es uno trivial, ya que la matriz ya esta diagonalizada y sus autovalores son los elementos de la diagonal. Se observa que cada autovalor tiene una degeneración de grado 2, es decir a cada autovalor le corresponden dos autovectores diferentes. Los autovectores también son triviales:
 \begin{equation}
 \begin{matrix}
-\Vec{u_1}=
+\Vec{u}_1=
 \end{matrix}
 \begin{bmatrix}
 1  \\
@@ -144,7 +144,7 @@ Lo anterior es un problema de autovalores pero como vemos es uno trivial, ya que
 \end{bmatrix}
 ,
 \begin{matrix}
-\Vec{u_2}=
+\Vec{u}_2=
 \end{matrix}
 \begin{bmatrix}
 0  \\
@@ -154,7 +154,7 @@ Lo anterior es un problema de autovalores pero como vemos es uno trivial, ya que
 \end{bmatrix}
 ,
 \begin{matrix}
-\Vec{u_3}=
+\Vec{u}_3=
 \end{matrix}
 \begin{bmatrix}
 0  \\
@@ -164,7 +164,7 @@ Lo anterior es un problema de autovalores pero como vemos es uno trivial, ya que
 \end{bmatrix}
 ,
 \begin{matrix}
-\Vec{u_4}=
+\Vec{u}_4=
 \end{matrix}
 \begin{bmatrix}
 0  \\
@@ -175,16 +175,16 @@ Lo anterior es un problema de autovalores pero como vemos es uno trivial, ya que
 .
 \end{equation}
 
-Si analizamos los autovectores anteriores nos percatamos de la presencia del spin, ya que para un valor de energía, $E=mc^2$, tenemos dos estados posibles, como sucede con el electrón y todas las partículas que tienen spin $1/2$, es decir tienen 2 posibilidades, tener spin hacia arriba o hacia abajo, por tanto el resultado de 2 autovectores con la misma energía es consistente con la predicción del spin, ahora debemos resolver el problema que no hicimos notar antes y es que poseemos una energía negativa que también describe 2 estados.
+Si analizamos los autovectores anteriores nos percatamos de la presencia del spin, ya que para un valor de energía, $E=mc^2$, tenemos dos estados posibles, como sucede con el electrón y todas las partículas que tienen spin $1/2$. Es decir tienen 2 posibilidades, tener spin hacia arriba o hacia abajo. Por lo tanto el resultado de 2 autovectores con la misma energía es consistente con la predicción del spin. Ahora debemos resolver el problema que no hicimos notar antes y es que poseemos una energía negativa que también describe 2 estados.
 
 \section{Antimateria}
-Para describir los estados de energía negativa, Dirac propuso un concepto que se conoce como el mar de Dirac en el cual el vació tiene todos los niveles de energía  negativa ocupados, y por el principio de exclusión de Pauli el electrón no puede decaer a esos estados y por tanto es estable, pero esta hipótesis tiene la siguiente posibilidad y es que un fotón suficientemente energético puede incidir sobre un electrón con energía negativa en el mar de Dirac (vació) y excitarlo a un nivel de energía positiva, por tanto en el mar de Dirac quedara un hueco, este hueco corresponde físicamente a la antipartícula del electrón, es decir una partícula idéntica (igual masa) que el electrón pero con carga positiva que fue llamada positrón y descubierta en 1932 por Carl David Anderson, pero como vemos fue predicha 4 años antes por Dirac.
-Por tanto los autovectores asociados a la energía negativa corresponden a Positrones, que pueden tener 2 estados, es decir spin arriba o spin abajo.
+Para describir los estados de energía negativa, Dirac propuso un concepto que se conoce como el mar de Dirac en el cual el vacío tiene todos los niveles de energía  negativa ocupados, y por el principio de exclusión de Pauli el electrón no puede decaer a esos estados y por tanto es estable. Pero esta hipótesis tiene la siguiente posibilidad y es que un fotón suficientemente energético puede incidir sobre un electrón con energía negativa en el mar de Dirac (vacío) y excitarlo a un nivel de energía positiva. Por lo tanto, en el mar de Dirac quedará un hueco. Éste hueco corresponde físicamente a la antipartícula del electrón, es decir, a una partícula idéntica de igual masa  que el electrón pero con carga positiva que fue llamada positrón y descubierta en 1932 por Carl David Anderson, pero como vemos fue predicha 4 años antes por Dirac.
+Por lo tanto, los autovectores asociados a la energía negativa corresponden a Positrones, que pueden tener 2 estados, es decir spin arriba o spin abajo.
 
 \section{Conclusiones y Comentarios}
 \begin{itemize}
-    \item El spin es una consecuencia de la relatividad especial,emerge al introducir la energía relativista en la ecuación de Schrodinger y linealizarla, el concepto de spin es muy importante en la física de partículas ya que nos permite clasificar las partículas en dos, bosones (spin entero) y fermiones (spin semi-entero), que tienen comportamientos estadísticos diferentes.
-    \item La ecuación de Dirac predice la existencia de antipartículas, pero la explicación de el mar de Dirac (teoría de huecos) no puede ser aplicada a los bosones, en teoría cuántica de campos las antipartículas se consideran partículas con que viajan hacia atrás en el tiempo.
+    \item El spin es una consecuencia de la relatividad especial. Emerge al introducir la energía relativista en la ecuación de Schrodinger y linealizarla. El concepto de spin es muy importante en la física de partículas ya que nos permite clasificar las partículas en dos, bosones (spin entero) y fermiones (spin semi-entero), que tienen comportamientos estadísticos diferentes.
+    \item La ecuación de Dirac predice la existencia de antipartículas, pero la explicación de el mar de Dirac (teoría de huecos) no puede ser aplicada a los bosones, en teoría cuántica de campos las antipartículas se consideran partículas que viajan hacia atrás en el tiempo.
     \item Podemos pensar en estas ideas como el comienzo de la teoría cuántica de campos, por las nociones de creación y destrucción de partículas, nociones introducidas por la energía relativista , ya que la energía y la masa son equivalentes entre si y Dirac logro unir estas 2 teorías satisfactoriamente.
     \item En el curso se hizo la derivación deduciendo el Lagrangiano de Dirac mediante simetrías y aplicando las ecuaciones de Euler-Lagrange, quise explorar este método alternativo, que no es muy riguroso matemáticamente, para entender las ideas claves  que llevaron a Dirac a formular una de las ecuaciones mas bellas e importantes de la física.
 \end{itemize}
